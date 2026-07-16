@@ -30,7 +30,7 @@ class Main
     recipientA.setExpirationDate(1234567);
 
     recipientB.setAll("Cat", "Garfield", "66-6-6666", "Lasagna Land",
-            'M', 93485798, 248, 2389);
+            93485798, 248, 2389, 'M');
 
     System.out.printf("Name: %s %s%nUSCIS: %s%nCountry of origin: %s%n" +
                 "Sex: %c%nBirthday (JDN): %d%nValid From Date (JDN): %d%nExpiration Date: %d",
