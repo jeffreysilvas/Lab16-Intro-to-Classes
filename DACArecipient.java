@@ -173,7 +173,7 @@ public class DACArecipient
      * @param expirationDate Expiration date of DACArecipient as JDN
      * **/
     public void setAll(String surname, String givenName, String uscisNumber, String countryOfOrigin,
-                       char sex, int birthday, int validFromDate, int expirationDate) {
+                       int birthday, int validFromDate, int expirationDate, char sex) {
         setSurname(surname);
         setGivenName(givenName);
         setUscisNumber(uscisNumber);
